@@ -74,12 +74,12 @@ void ICACHE_FLASH_ATTR ESP8266_MDNS_Initialize(char* host_name,
 	espconn_mdns_init(m_info);
 
 	if(_esp8266_mdns_debug)
-		{
-			os_printf("ESP8266 : MDNS : Started with parameters\n");
-			os_printf("host_name = %s\n", m_info->host_name);
-			os_printf("server_name = %s\n", m_info->server_name);
-			os_printf("server_port = %u\n", m_info->server_port);
-		}
+	{
+		os_printf("ESP8266 : MDNS : Started with parameters\n");
+		os_printf("host_name = %s\n", m_info->host_name);
+		os_printf("server_name = %s\n", m_info->server_name);
+		os_printf("server_port = %u\n", m_info->server_port);
+	}
 }
 
 void ICACHE_FLASH_ATTR ESP8266_MDNS_Stop(void)
