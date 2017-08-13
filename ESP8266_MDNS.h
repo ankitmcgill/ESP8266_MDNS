@@ -30,11 +30,11 @@
 #include "os_type.h"
 
 //CUSTOM VARIABLE STRUCTURES/////////////////////////////
-enum ESP8266_MDNS_SYSTEM_MODE
+typedef enum
 {
 	ESP8266_MDNS_SYSTEM_MODE_STATION = 0,
-	ESP8266_MDNS_SYSTEM_MODE_SOFTAP = 1
-};
+	ESP8266_MDNS_SYSTEM_MODE_SOFTAP
+}ESP8266_MDNS_SYSTEM_MODE;
 //END CUSTOM VARIABLE STRUCTURES/////////////////////////
 
 //FUNCTION PROTOTYPES/////////////////////////////////////
@@ -43,7 +43,7 @@ void ICACHE_FLASH_ATTR ESP8266_MDNS_SetDebug(uint8_t debug_on);
 void ICACHE_FLASH_ATTR ESP8266_MDNS_Initialize(char* host_name,
 													char* server_name,
 													uint16_t server_port,
-													enum ESP8266_MDNS_SYSTEM_MODE mode);
+													ESP8266_MDNS_SYSTEM_MODE mode);
 
 //GET PARAMETERS FUNCTIONS
 

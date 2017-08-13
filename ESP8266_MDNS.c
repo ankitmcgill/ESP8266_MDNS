@@ -38,7 +38,7 @@ void ICACHE_FLASH_ATTR ESP8266_MDNS_SetDebug(uint8_t debug_on)
 void ICACHE_FLASH_ATTR ESP8266_MDNS_Initialize(char* host_name,
 													char* server_name,
 													uint16_t server_port,
-													enum ESP8266_MDNS_SYSTEM_MODE mode)
+													ESP8266_MDNS_SYSTEM_MODE mode)
 {
 	//INTIALIZE AND START MDNS SERVICE WITH THE SPECIFIED PARAMETERS
 	//THE DEVICE IS AVAILABLE AT THE ADDRESS <host_name>.local
