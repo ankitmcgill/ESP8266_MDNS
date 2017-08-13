@@ -44,6 +44,7 @@ void ICACHE_FLASH_ATTR ESP8266_MDNS_Initialize(char* host_name,
 													char* server_name,
 													uint16_t server_port,
 													enum ESP8266_MDNS_SYSTEM_MODE mode);
+
 //GET PARAMETERS FUNCTIONS
 
 //CONTROL FUNCTIONS
