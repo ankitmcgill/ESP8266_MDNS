@@ -17,6 +17,7 @@
 * ------------
 * 	(1) https://en.wikipedia.org/wiki/Multicast_DNS
 * 	(2) https://techtutorialsx.com/2016/11/20/esp8266-webserver-resolving-an-address-with-mdns/
+*		(3) Stackoverflow : avahi dns doesn't work
 ****************************************************************/
 
 #ifndef _ESP8266_MDNS_H_
